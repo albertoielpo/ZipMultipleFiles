@@ -1,8 +1,9 @@
 # ZipMultipleFiles
 Simple java utility with the purpouse to zip a certain amount of files via shell
-USAGE
-> java -jar ZipMultipleFiles.jar (WORKING_DIR) (FILES_NUMBER) (ZIP_NAME) [START_COUNTER_VALUE] [BUFFER_LENGTH] [SLEEP_TIME]
-
+### USAGE
+```
+java -jar ZipMultipleFiles.jar (WORKING_DIR) (FILES_NUMBER) (ZIP_NAME) [START_COUNTER_VALUE] [BUFFER_LENGTH] [SLEEP_TIME]
+```
 Where
 * args[0] = WORKING_DIR = the directory in which files are contained (mandatory)
 * args[1] = FILES_NUMBER = numbers of files per zip (mandatory)
